@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChatService } from './utils/chat.service';
+import { WebsocketService } from './utils/websocket.service';
 
 @NgModule({
   declarations: [
